@@ -1,0 +1,19 @@
+.t-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.t-header__navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+  .navigation__item {
+    padding-left: 5%;
+    list-style-type: none;
+    flex-grow: 1;
+    min-width: 75px;
+  }
+}

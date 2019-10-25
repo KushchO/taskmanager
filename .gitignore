@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+tm-back/node_modules
+tm-front/node_modules
+/.pnp
+.pnp.js
+
+# testing
+tm-front/coverage
+
+# production
+tm-front/build
+
+# misc
+tm-front/.DS_Store
+tm-front/.env.local
+tm-front/.env.development.local
+tm-front/.env.test.local
+tm-front/.env.production.local
+
+tm-front/npm-debug.log*
+tm-front/yarn-debug.log*
+tm-front/yarn-error.log*
